@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems%20Solved-5%2F16-brightgreen?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems%20Solved-6%2F16-brightgreen?style=for-the-badge)
 
 ## 📌 Student Details
 - **Student Name:** Kamaljit
@@ -30,7 +30,7 @@ The repository is structured into three folders according to problem difficulty 
 | 03 | [1295](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | Find Numbers with Even Number of Digits | **Easy** | Unit I | ✅ Solved | [03_LC1295](./Easy/03_LC1295_FindNumbersEvenDigits_Easy.java) |
 | 04 | [1929](https://leetcode.com/problems/concatenation-of-array/) | Concatenation of Array | **Easy** | Unit I | ✅ Solved | [04_LC1929](./Easy/04_LC1929_ConcatenationOfArray_Easy.java) |
 | 05 | [1603](https://leetcode.com/problems/design-parking-system/) | Design Parking System | **Easy** | Unit II | ✅ Solved | [05_LC1603](./Easy/05_LC1603_DesignParkingSystem_Easy.java) |
-| 06 | [509](https://leetcode.com/problems/fibonacci-number/) | Fibonacci Number | **Easy** | Unit I, II | ⏳ Pending | [06_LC509](./Easy/06_LC509_FibonacciNumber_Easy.java) |
+| 06 | [509](https://leetcode.com/problems/fibonacci-number/) | Fibonacci Number | **Easy** | Unit I, II | ✅ Solved (0ms, Beats 100%) | [06_LC509](./Easy/06_LC509_FibonacciNumber_Easy.java) |
 | 07 | [258](https://leetcode.com/problems/add-digits/) | Add Digits | **Easy** | Unit I | ⏳ Pending | [07_LC258](./Easy/07_LC258_AddDigits_Easy.java) |
 | 08 | [231](https://leetcode.com/problems/power-of-two/) | Power of Two | **Easy** | Unit I | ⏳ Pending | [08_LC231](./Easy/08_LC231_PowerOfTwo_Easy.java) |
 | 09 | [1281](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Subtract the Product and Sum of Digits of an Integer | **Easy** | Unit I | ⏳ Pending | [09_LC1281](./Easy/09_LC1281_SubtractProductAndSum_Easy.java) |
