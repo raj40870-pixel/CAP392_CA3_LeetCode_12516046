@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems%20Solved-10%2F16-brightgreen?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems%20Solved-11%2F16-brightgreen?style=for-the-badge)
 
 ## 📌 Student Details
 - **Student Name:** Kamaljit
@@ -40,7 +40,7 @@ The repository is structured into three folders according to problem difficulty 
 | 13 | [050](https://leetcode.com/problems/powx-n/) | Pow (x, n) | **Medium** | Unit I, II | ⏳ Pending | [13_LC050](./Medium/13_LC050_PowXN_Medium.java) |
 | 14 | [005](https://leetcode.com/problems/longest-palindromic-substring/) | Longest Palindromic Substring | **Medium** | Unit I | ⏳ Pending | [14_LC005](./Medium/14_LC005_LongestPalindromicSubstring_Medium.java) |
 | 15 | [042](https://leetcode.com/problems/trapping-rain-water/) | Trapping Rain Water | **Hard** | Unit I | ✅ Solved (0ms, Beats 100%) | [15_LC042](./Hard/15_LC042_TrappingRainWater_Hard.java) |
-| 16 | [273](https://leetcode.com/problems/integer-to-english-words/) | Integer to English Words | **Hard** | Unit I | ⏳ Pending | [16_LC273](./Hard/16_LC273_IntegerToEnglishWords_Hard.java) |
+| 16 | [273](https://leetcode.com/problems/integer-to-english-words/) | Integer to English Words | **Hard** | Unit I | ✅ Solved | [16_LC273](./Hard/16_LC273_IntegerToEnglishWords_Hard.java) |
 
 ---
 
