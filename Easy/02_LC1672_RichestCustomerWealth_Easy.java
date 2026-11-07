@@ -10,15 +10,39 @@
  * Topics: 2D arrays, nested loops, maximum value
  * LeetCode URL: https://leetcode.com/problems/richest-customer-wealth/
  *
- * Approach:
- * - [To be documented upon solution completion]
+ * Submission Metrics:
+ * - Status: Accepted (Passed all test cases)
+ * - Language: Java
  *
- * Complexity:
- * - Time Complexity: O(...)
- * - Space Complexity: O(...)
+ * Approach:
+ * - Each row in the 2D array represents a customer, and each column represents a bank account.
+ * - We iterate over each customer using an outer loop.
+ * - An inner loop calculates the sum of money (wealth) that the customer has across all their accounts.
+ * - We maintain a running maximum (maxWealth) and update it using Math.max(maxWealth, currentSum).
+ * - After checking all customers, maxWealth contains the wealth of the richest customer.
+ *
+ * Complexity Analysis:
+ * - Time Complexity: O(m * n), where m is the number of customers and n is the number of bank accounts per customer.
+ * - Space Complexity: O(1) auxiliary space (uses only two scalar integer variables: maxWealth and currentSum).
  */
 
-// Solution class skeleton:
 class Solution {
-    // Paste/Write Java solution here
+    public int maximumWealth(int[][] accounts) {
+        int maxWealth = 0;
+      
+        // Outer loop: Iterate through each customer (row)
+        for (int[] customer : accounts) {
+            int currentSum = 0;
+          
+            // Inner loop: Sum wealth across all bank accounts
+            for (int bankMoney : customer) {
+                currentSum += bankMoney;
+            }
+         
+            // Keep track of the maximum wealth found so far
+            maxWealth = Math.max(maxWealth, currentSum);
+        }
+        
+        return maxWealth;
+    }
 }
