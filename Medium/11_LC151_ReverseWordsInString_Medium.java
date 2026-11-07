@@ -1,24 +1,19 @@
-/**
- * Course: CAP392 - Java Programming
- * Assessment: CA3 (LeetCode Problem Solving using Java)
- * Student Name: Kamaljit
- * Registration Number: 12516046
- * 
- * Problem 11: LeetCode 151 - Reverse Words in a String
- * Level: Medium
- * Unit: I
- * Topics: Strings, StringBuilder
- * LeetCode URL: https://leetcode.com/problems/reverse-words-in-a-string/
- *
- * Approach:
- * - [To be documented upon solution completion]
- *
- * Complexity:
- * - Time Complexity: O(...)
- * - Space Complexity: O(...)
- */
+﻿// Student Name: Kamaljit
+// Registration Number: 12516046
+// Problem: LeetCode 151 - Reverse Words in a String
 
-// Solution class skeleton:
 class Solution {
-    // Paste/Write Java solution here
+    public String reverseWords(String s) {
+        String[] words = s.trim().split("\\s+");
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = words.length - 1; i >= 0; i--) {
+            sb.append(words[i]);
+            if (i > 0) {
+                sb.append(" ");
+            }
+        }
+
+        return sb.toString();
+    }
 }
