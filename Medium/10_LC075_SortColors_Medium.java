@@ -1,24 +1,32 @@
-/**
- * Course: CAP392 - Java Programming
- * Assessment: CA3 (LeetCode Problem Solving using Java)
- * Student Name: Kamaljit
- * Registration Number: 12516046
- * 
- * Problem 10: LeetCode 075 - Sort Colors
- * Level: Medium
- * Unit: I
- * Topics: Arrays, Loops
- * LeetCode URL: https://leetcode.com/problems/sort-colors/
- *
- * Approach:
- * - [To be documented upon solution completion]
- *
- * Complexity:
- * - Time Complexity: O(...)
- * - Space Complexity: O(...)
- */
+﻿// Student Name: Kamaljit
+// Registration Number: 12516046
+// Problem: LeetCode 75 - Sort Colors
 
-// Solution class skeleton:
 class Solution {
-    // Paste/Write Java solution here
+    public void sortColors(int[] nums) {
+        int count0 = 0;
+        int count1 = 0;
+        int count2 = 0;
+
+        for (int num : nums) {
+            if (num == 0) {
+                count0++;
+            } else if (num == 1) {
+                count1++;
+            } else {
+                count2++;
+            }
+        }
+
+        int index = 0;
+        for (int i = 0; i < count0; i++) {
+            nums[index++] = 0;
+        }
+        for (int i = 0; i < count1; i++) {
+            nums[index++] = 1;
+        }
+        for (int i = 0; i < count2; i++) {
+            nums[index++] = 2;
+        }
+    }
 }
