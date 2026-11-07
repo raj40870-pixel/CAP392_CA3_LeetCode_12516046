@@ -1,24 +1,17 @@
-/**
- * Course: CAP392 - Java Programming
- * Assessment: CA3 (LeetCode Problem Solving using Java)
- * Student Name: Kamaljit
- * Registration Number: 12516046
- * 
- * Problem 09: LeetCode 1281 - Subtract the Product and Sum of Digits of an Integer
- * Level: Easy
- * Unit: I
- * Topics: while loop, arithmetic operators
- * LeetCode URL: https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
- *
- * Approach:
- * - [To be documented upon solution completion]
- *
- * Complexity:
- * - Time Complexity: O(...)
- * - Space Complexity: O(...)
- */
+// Student Name: Kamaljit
+// Registration Number: 12516046
+// Problem: LeetCode 1281 - Subtract the Product and Sum of Digits of an Integer
 
-// Solution class skeleton:
 class Solution {
-    // Paste/Write Java solution here
+    public int subtractProductAndSum(int n) {
+        int product = 1;
+        int sum = 0;
+        while (n > 0) {
+            int digit = n % 10;
+            product *= digit;
+            sum += digit;
+            n /= 10;
+        }
+        return product - sum;
+    }
 }

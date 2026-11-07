@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems%20Solved-8%2F16-brightgreen?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems%20Solved-9%2F16-brightgreen?style=for-the-badge)
 
 ## 📌 Student Details
 - **Student Name:** Kamaljit
@@ -33,7 +33,7 @@ The repository is structured into three folders according to problem difficulty 
 | 06 | [509](https://leetcode.com/problems/fibonacci-number/) | Fibonacci Number | **Easy** | Unit I, II | ✅ Solved (0ms, Beats 100%) | [06_LC509](./Easy/06_LC509_FibonacciNumber_Easy.java) |
 | 07 | [258](https://leetcode.com/problems/add-digits/) | Add Digits | **Easy** | Unit I | ✅ Solved | [07_LC258](./Easy/07_LC258_AddDigits_Easy.java) |
 | 08 | [231](https://leetcode.com/problems/power-of-two/) | Power of Two | **Easy** | Unit I | ✅ Solved (0ms, Beats 100%) | [08_LC231](./Easy/08_LC231_PowerOfTwo_Easy.java) |
-| 09 | [1281](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Subtract the Product and Sum of Digits of an Integer | **Easy** | Unit I | ⏳ Pending | [09_LC1281](./Easy/09_LC1281_SubtractProductAndSum_Easy.java) |
+| 09 | [1281](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Subtract the Product and Sum of Digits of an Integer | **Easy** | Unit I | ✅ Solved | [09_LC1281](./Easy/09_LC1281_SubtractProductAndSum_Easy.java) |
 | 10 | [075](https://leetcode.com/problems/sort-colors/) | Sort Colors | **Medium** | Unit I | ⏳ Pending | [10_LC075](./Medium/10_LC075_SortColors_Medium.java) |
 | 11 | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | Reverse Words in a String | **Medium** | Unit I | ⏳ Pending | [11_LC151](./Medium/11_LC151_ReverseWordsInString_Medium.java) |
 | 12 | [007](https://leetcode.com/problems/reverse-integer/) | Reverse Integer | **Medium** | Unit I | ⏳ Pending | [12_LC007](./Medium/12_LC007_ReverseInteger_Medium.java) |
