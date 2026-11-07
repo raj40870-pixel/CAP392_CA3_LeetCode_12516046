@@ -1,24 +1,20 @@
-/**
- * Course: CAP392 - Java Programming
- * Assessment: CA3 (LeetCode Problem Solving using Java)
- * Student Name: Kamaljit
- * Registration Number: 12516046
- * 
- * Problem 12: LeetCode 007 - Reverse Integer
- * Level: Medium
- * Unit: I
- * Topics: loops, overflow checks, operators
- * LeetCode URL: https://leetcode.com/problems/reverse-integer/
- *
- * Approach:
- * - [To be documented upon solution completion]
- *
- * Complexity:
- * - Time Complexity: O(...)
- * - Space Complexity: O(...)
- */
+﻿// Student Name: Kamaljit
+// Registration Number: 12516046
+// Problem: LeetCode 7 - Reverse Integer
 
-// Solution class skeleton:
 class Solution {
-    // Paste/Write Java solution here
+    public int reverse(int x) {
+        long rev = 0;
+        
+        while (x != 0) {
+            rev = rev * 10 + (x % 10);
+            x /= 10;
+        }
+        
+        if (rev > Integer.MAX_VALUE || rev < Integer.MIN_VALUE) {
+            return 0;
+        }
+        
+        return (int) rev;
+    }
 }
