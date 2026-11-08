@@ -1,24 +1,26 @@
-/**
- * Course: CAP392 - Java Programming
- * Assessment: CA3 (LeetCode Problem Solving using Java)
- * Student Name: Kamaljit
- * Registration Number: 12516046
- * 
- * Problem 13: LeetCode 050 - Pow (x, n)
- * Level: Medium
- * Unit: I, II
- * Topics: recursion, methods, operators
- * LeetCode URL: https://leetcode.com/problems/powx-n/
- *
- * Approach:
- * - [To be documented upon solution completion]
- *
- * Complexity:
- * - Time Complexity: O(...)
- * - Space Complexity: O(...)
- */
+﻿// Student Name: Kamaljit
+// Registration Number: 12516046
+// Problem: LeetCode 50 - Pow(x, n)
 
-// Solution class skeleton:
 class Solution {
-    // Paste/Write Java solution here
+    public double myPow(double x, int n) {
+        long N = n;
+        if (N < 0) {
+            x = 1 / x;
+            N = -N;
+        }
+        return fastPow(x, N);
+    }
+
+    private double fastPow(double x, long n) {
+        if (n == 0) {
+            return 1.0;
+        }
+        double half = fastPow(x, n / 2);
+        if (n % 2 == 0) {
+            return half * half;
+        } else {
+            return half * half * x;
+        }
+    }
 }

@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems%20Solved-14%2F16-brightgreen?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems%20Solved-15%2F16-brightgreen?style=for-the-badge)
 
 ## 📌 Student Details
 - **Student Name:** Kamaljit
@@ -37,7 +37,7 @@ The repository is structured into three folders according to problem difficulty 
 | 10 | [075](https://leetcode.com/problems/sort-colors/) | Sort Colors | **Medium** | Unit I | ✅ Solved (0ms, Beats 100%) | [10_LC075](./Medium/10_LC075_SortColors_Medium.java) |
 | 11 | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | Reverse Words in a String | **Medium** | Unit I | ✅ Solved | [11_LC151](./Medium/11_LC151_ReverseWordsInString_Medium.java) |
 | 12 | [007](https://leetcode.com/problems/reverse-integer/) | Reverse Integer | **Medium** | Unit I | ✅ Solved (0ms, Beats 100%) | [12_LC007](./Medium/12_LC007_ReverseInteger_Medium.java) |
-| 13 | [050](https://leetcode.com/problems/powx-n/) | Pow (x, n) | **Medium** | Unit I, II | ⏳ Pending | [13_LC050](./Medium/13_LC050_PowXN_Medium.java) |
+| 13 | [050](https://leetcode.com/problems/powx-n/) | Pow (x, n) | **Medium** | Unit I, II | ✅ Solved (0ms, Beats 100%) | [13_LC050](./Medium/13_LC050_PowXN_Medium.java) |
 | 14 | [005](https://leetcode.com/problems/longest-palindromic-substring/) | Longest Palindromic Substring | **Medium** | Unit I | ⏳ Pending | [14_LC005](./Medium/14_LC005_LongestPalindromicSubstring_Medium.java) |
 | 15 | [042](https://leetcode.com/problems/trapping-rain-water/) | Trapping Rain Water | **Hard** | Unit I | ✅ Solved (0ms, Beats 100%) | [15_LC042](./Hard/15_LC042_TrappingRainWater_Hard.java) |
 | 16 | [273](https://leetcode.com/problems/integer-to-english-words/) | Integer to English Words | **Hard** | Unit I | ✅ Solved | [16_LC273](./Hard/16_LC273_IntegerToEnglishWords_Hard.java) |
