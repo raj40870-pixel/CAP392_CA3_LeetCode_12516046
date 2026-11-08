@@ -1,24 +1,30 @@
-/**
- * Course: CAP392 - Java Programming
- * Assessment: CA3 (LeetCode Problem Solving using Java)
- * Student Name: Kamaljit
- * Registration Number: 12516046
- * 
- * Problem 14: LeetCode 005 - Longest Palindromic Substring
- * Level: Medium
- * Unit: I
- * Topics: String, nested loops, methods
- * LeetCode URL: https://leetcode.com/problems/longest-palindromic-substring/
- *
- * Approach:
- * - [To be documented upon solution completion]
- *
- * Complexity:
- * - Time Complexity: O(...)
- * - Space Complexity: O(...)
- */
+﻿// Student Name: Kamaljit
+// Registration Number: 12516046
+// Problem: LeetCode 5 - Longest Palindromic Substring
 
-// Solution class skeleton:
 class Solution {
-    // Paste/Write Java solution here
+    public String longestPalindrome(String s) {
+        if (s == null || s.length() < 1) {
+            return "";
+        }
+        int start = 0, end = 0;
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expandAroundCenter(s, i, i);
+            int len2 = expandAroundCenter(s, i, i + 1);
+            int len = Math.max(len1, len2);
+            if (len > end - start) {
+                start = i - (len - 1) / 2;
+                end = i + len / 2;
+            }
+        }
+        return s.substring(start, end + 1);
+    }
+
+    private int expandAroundCenter(String s, int left, int right) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
+        }
+        return right - left - 1;
+    }
 }
