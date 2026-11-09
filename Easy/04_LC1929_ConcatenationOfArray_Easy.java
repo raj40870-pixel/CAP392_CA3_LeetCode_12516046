@@ -1,7 +1,3 @@
-// Student Name: Kamaljit
-// Registration Number: 12516046
-// Problem: LeetCode 1929 - Concatenation of Array
-
 class Solution {
     public int[] getConcatenation(int[] nums) {
         int n = nums.length;

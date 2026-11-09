@@ -1,7 +1,3 @@
-// Student Name: Kamaljit
-// Registration Number: 12516046
-// Problem: LeetCode 42 - Trapping Rain Water
-
 class Solution {
     public int trap(int[] height) {
         int left = 0;

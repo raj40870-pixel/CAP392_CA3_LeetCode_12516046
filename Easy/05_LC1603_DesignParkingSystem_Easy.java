@@ -1,7 +1,3 @@
-// Student Name: Kamaljit
-// Registration Number: 12516046
-// Problem: LeetCode 1603 - Design Parking System
-
 class ParkingSystem {
     private int big;
     private int medium;

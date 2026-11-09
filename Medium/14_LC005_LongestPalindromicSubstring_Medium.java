@@ -1,7 +1,3 @@
-﻿// Student Name: Kamaljit
-// Registration Number: 12516046
-// Problem: LeetCode 5 - Longest Palindromic Substring
-
 class Solution {
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) {

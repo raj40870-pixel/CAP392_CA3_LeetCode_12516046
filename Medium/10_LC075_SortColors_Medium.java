@@ -1,7 +1,3 @@
-﻿// Student Name: Kamaljit
-// Registration Number: 12516046
-// Problem: LeetCode 75 - Sort Colors
-
 class Solution {
     public void sortColors(int[] nums) {
         int count0 = 0;

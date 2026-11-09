@@ -1,7 +1,3 @@
-// Student Name: Kamaljit
-// Registration Number: 12516046
-// Problem: LeetCode 1281 - Subtract the Product and Sum of Digits of an Integer
-
 class Solution {
     public int subtractProductAndSum(int n) {
         int product = 1;

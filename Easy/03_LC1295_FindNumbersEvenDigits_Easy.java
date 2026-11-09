@@ -1,7 +1,3 @@
-// Student Name: Kamaljit
-// Registration Number: 12516046
-// Problem: LeetCode 1295 - Find Numbers with Even Number of Digits
-
 class Solution {
     public int findNumbers(int[] nums) {
         int evenCount = 0;

@@ -1,7 +1,3 @@
-﻿// Student Name: Kamaljit
-// Registration Number: 12516046
-// Problem: LeetCode 7 - Reverse Integer
-
 class Solution {
     public int reverse(int x) {
         long rev = 0;

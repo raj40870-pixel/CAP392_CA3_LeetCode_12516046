@@ -1,7 +1,3 @@
-// Student Name: Kamaljit
-// Registration Number: 12516046
-// Problem: LeetCode 509 - Fibonacci Number
-
 class Solution {
     public int fib(int n) {
         if (n <= 1) {

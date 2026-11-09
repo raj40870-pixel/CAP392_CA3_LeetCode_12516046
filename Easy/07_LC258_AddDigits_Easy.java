@@ -1,7 +1,3 @@
-// Student Name: Kamaljit
-// Registration Number: 12516046
-// Problem: LeetCode 258 - Add Digits
-
 class Solution {
     public int addDigits(int num) {
         while (num >= 10) {

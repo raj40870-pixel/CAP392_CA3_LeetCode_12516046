@@ -1,7 +1,3 @@
-// Student Name: Kamaljit
-// Registration Number: 12516046
-// Problem: LeetCode 1480 - Running Sum of 1D Array
-
 class Solution {
     public int[] runningSum(int[] nums) {
         for (int i = 1; i < nums.length; i++) {
